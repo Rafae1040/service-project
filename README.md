@@ -1,49 +1,27 @@
-# Projeto de Gerenciamento de Serviços Automotivos
+# 🚗💡 Projeto de Gerenciamento de Serviços Automotivos
 
-## Introdução:
+## 📌 Introdução
 
-Um projeto de base de dados voltado para o gerenciamento de serviços automotivos, com foco em clientes, veículos, serviços, peças, funcionários e ordens de serviço. 
----
+Bem-vindo ao Projeto de Gerenciamento de Serviços Automotivos! Este projeto tem como objetivo desenvolver uma base de dados eficiente e estruturada para facilitar a administração de serviços automotivos, abrangendo:
 
-## Objetivo:
+✅ Clientes 👥✅ Veículos 🚘✅ Serviços 🔧✅ Peças 🛠✅ Funcionários 👨‍🔧✅ Ordens de Serviço 📑
 
-O objetivo deste projeto é criar uma base de dados abrangente e eficiente para o gerenciamento de serviços automotivos.
+## 🎯 Objetivo
 
----
+Criar um sistema de banco de dados robusto para otimizar e centralizar a gestão de serviços automotivos, garantindo eficiência e organização na administração de clientes, veículos, estoque e ordens de serviço.
 
-## Destaques das Consultas SQL:
+## 📊 Principais Consultas SQL
 
-Listar Todos os Clientes: Apresenta detalhes dos clientes, incluindo contato, para rápida visualização.
+O projeto inclui diversas consultas SQL para facilitar a extração de informações relevantes:
 
-Listar Serviços com Desconto: Mostra serviços disponíveis, com preços original e com desconto.
+🔍 Listar Todos os Clientes: Exibe detalhes dos clientes, incluindo informações de contato.🔍 Serviços com Desconto: Mostra serviços disponíveis, com preço original e valores promocionais.🔍 Veículos Fabricados após 2015: Destaca veículos mais recentes com marca, modelo e ano.🔍 Peças com Estoque Acima de 50: Lista peças com estoque abundante, facilitando a gestão.🔍 Funcionários Ordenados por Nome: Apresenta a equipe de trabalho em ordem alfabética.🔍 Clientes com Veículos Registrados: Exibe clientes e a quantidade de veículos vinculados a cada um.🔍 Ordens de Serviço Detalhadas: Mostra todas as ordens de serviço, incluindo clientes, veículos e datas importantes.
 
-Veículos Fabricados após 2015: Exibe veículos recentes, destacando marca, modelo e ano.
+## 🛠 Inserção de Dados e Exemplos de Consultas
 
-Peças com Estoque Acima de 50: Lista peças com estoque amplo, indicando nome e quantidade.
+O projeto conta com scripts SQL para a inserção de dados fictícios, simulando um ambiente real de uma oficina mecânica. Também são fornecidas consultas SQL prontas para a recuperação e manipulação dessas informações.
 
-Funcionários Ordenados por Nome: Apresenta equipe em ordem alfabética, com nomes e cargos.
+📌 Banco de Dados Utilizado: MySQL
 
-Clientes com Veículos Registrados: Mostra clientes com veículos e quantidade correspondente.
+🚀 Benefícios do Sistema
 
-Ordens de Serviço Detalhadas: Apresenta dados das ordens, incluindo clientes, veículos e datas relevantes.
-
----
-## Inserção de Dados e Consultas:
-
-O projeto inclui scripts de inserção de dados para popular as tabelas do banco de dados com exemplos fictícios. Esses dados de exemplo representam situações reais de um ambiente de prestação de serviços automotivos. Além disso, também são fornecidas consultas de exemplo que demonstram como recuperar informações relevantes das tabelas do banco de dados.
-
-Ferramenta usada: MySQL
-
----
-
-## Conclusão:
-
-Centralização de Dados: Unifica informações de clientes, veículos, serviços e peças, eliminando registros em papel e sistemas separados, permitindo acesso rápido.
-
-Eficiência Operacional: Otimiza tarefas diárias como acompanhamento de serviços, gestão de estoque e agendamento, facilitando a administração e atribuição de tarefas.
-
-Relatórios e Análises: Gera análises detalhadas, auxiliando na identificação de tendências e melhorias, informando decisões e aprimorando serviços.
-
-Experiência do Cliente: Mantém histórico de veículos e serviços, melhorando a personalização do atendimento e criando confiança com clientes.
-
-Facilidade de Manutenção: Sistema bem estruturado permite expansão simples com novos serviços, peças e funcionários, garantindo escalabilidade.
+✔ 📂 Centralização de Dados: Elimina registros em papel e sistemas desconectados, garantindo acesso rápido às informações.✔ 📈 Eficiência Operacional: Otimiza processos diários como controle de estoque, agendamentos e acompanhamento de serviços.✔ 📊 Relatórios e Análises: Fornece insights sobre o desempenho da empresa, ajudando na tomada de decisões estratégicas.✔ 🤝 Experiência do Cliente: Mantém um histórico detalhado de veículos e serviços prestados, garantindo um atendimento personalizado.✔ 🔧 Facilidade de Manutenção: Estrutura modular que permite fácil expansão com novos serviços, peças e funcionários.
